@@ -99,7 +99,7 @@ jobs:
           # this workflow.
           permissions_monitoring_config: ${{ vars.ACTIONS_PERMISSIONS_CONFIG }}
       - id: setup-env
-        uses: cisagov/setup-env-github-action@develop
+        uses: cisagov/setup-env-github-action@maintenance/update_versions
       - uses: actions/checkout@v4
       - id: setup-python
         uses: actions/setup-python@v5
